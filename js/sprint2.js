@@ -1,12 +1,14 @@
+alert("Hola perdón por lo que están a punto de ver :( ");
+
 function agregarPendiente (){
     var nuevoElemento = document.getElementById("texto").value;
+    var lista = document.getElementById("espacioTexto")
+
     var elementoLista = document.createElement("li");
     espacioTexto.innerHTML = nuevoElemento;
 
-    agregarPendiente.appendChild("texto");
+    espacioTexto.appendChild();
  };
-
-
 
 /*function agregarPendiente (){
     var nuevoElemento = document.getElementById("texto").value;
@@ -29,6 +31,7 @@ function agregarPendiente2 (){
 
 function crearLista (){
   var nombreLista = document.getElementById("agregarLista").value;
+  var nuevaLista = documenet.createElement("text");
   espacioNuevaLista.innerHTML = nombreLista;
 
 }
