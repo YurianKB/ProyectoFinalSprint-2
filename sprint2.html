@@ -4,30 +4,38 @@
     <meta charset="utf-8">
     <title>Trello</title>
   </head>
-  <body>
-    <h1>Trello</1h>
-
-    <h2>Pendientes Semana</h2>
+  <body style="background-color:#58ACFA">
+    <font face="Century Gothic" color="#F2F2F2">
+      <h1>Trello ✏ ✏ ✏ ✏ ✏ ✏</1h>
+      <h2>Pendientes Semana</h2>
         <form>
-           <div id="espacioTexto"></div>
              <h4>Agregar Pendiente</h3>
-               <li></li>
              <input id="texto" type="text">
              <button type="button" id="crearPendiente1" onclick="agregarPendiente();" value="Añadir Elemento">Crear Pendiente</button><br>
+             <div id="espacioTexto">
+               <ul>
+                 <li>
+                 </li>
+               </ul>
+             </div>
        </form>
 
+      <hr>
 
-      <hr>
     <h2>Pendientes Otra Semana</h2>
-      <div>
-      </div>
-    <h4>Agregar Pendiente</h3>
-      <input id="agregarPendiente2">
-      <button type="button" id="crearPendienete2">Crear Pendiente</button><br>
+        <form>
+              <h4>Agregar Pendiente</h3>
+              <input id="texto2" type="text">
+              <button type="button" id="crearPendiente2" onclick="agregarPendiente2();" value ="Añadir Elemento">Crear Pendiente</button><br>
+              <div id="espacioTexto2" ></div>
       <hr>
+
     <h3>Agregar Lista</h3>
+
       <input id="agregarLista">
       <button type="button" id="crearLista">Crear Lista</button><br>
+      <div id="espacioNuevaLista"></div>
+   </font>
     <script type="text/javascript" src="js/sprint2.js"></script>
   </body>
 </html>
